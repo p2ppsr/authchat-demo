@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="./BabbageSDK.js"></script>
+    <script src="./authrite.js"></script>
+  </head>
+  <body>
+    <div class="header">
+        <img class="headerImage" src="https://cdn-icons-png.flaticon.com/512/14/14558.png"/>
+        <h1>AuthChat</h1>
+        <h4 class="subheading">The secure way to stay connected</h4>
+        <h2 id="status" class="status"></h2>
+        <h4 id="identityKey"></h4>
+    </div>
+    <div id="chatContainer">
+        <ul id="chat">
+        </ul>
+    
+        <form action="">
+          <input id="input" autocomplete="off" type="text" /><button><i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+    <script src="client.js"></script>
+  </body>
+</html>
