@@ -40,7 +40,7 @@ new window.Authrite.Authrite().connect('http://localhost:3000')
       }
     })
 
-    io.on('chatMessage', function (msg) {
+    io.on('chatMessage', (msg) => {
       console.log('Signature verified!')
       const li = document.createElement('li')
       const div = document.createElement('div')

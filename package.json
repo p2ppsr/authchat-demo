@@ -1,8 +1,11 @@
 {
   "main": "index.js",
+  "description": "Simple HTML/CSS/JS demo of Authrite protected sockets",
   "scripts": {
     "start": "node index.js"
   },
+  "author": "Peer-to-peer Privacy Systems Research, LLC",
+  "license": "Open BSV License",
   "dependencies": {
     "authrite-express": "^0.2.5",
     "authrite-js": "^0.2.16",
