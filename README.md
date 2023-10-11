@@ -35,11 +35,11 @@ Then, open Chrome and visit the site.
 
 ## How It Works
 
-Upon serving the HTML page, you will see a chat application with an input text field. You can open two browser windows of the same page to simulate to users talking to each other.
+Upon serving the HTML page, you will see a chat application with an input text field. To simulate a conversation between two users, open the same page in two browser windows.
 
-Upon opening, the user should already be authenticated. This is facilitated by an initial Authrite authentication handshake with the server, assuming the user's MetaNet Client is active.
+Once the page has loaded, the user should already be authenticated. This is facilitated by an initial Authrite authentication handshake with the server, assuming the user's MetaNet Client is active.
 
-Subsequently, the user can type a message in one window and press enter. The typing indicator and message will be visible in the other window. The same action can be performed in reverse. This simulates two users engaging in a conversation.
+To engage in a conversation, simply type a message in one window and press enter. You'll notice the typing indicator and message will appear in the other window. This interaction can be reciprocated, allowing for a seamless back-and-forth simulated conversation between two users.
 
 Each action transmits authentication headers, ensuring that each message is mutually authenticated, not just the initial connection.
 
