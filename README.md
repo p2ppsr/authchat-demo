@@ -33,6 +33,16 @@ Then, open Chrome and visit the site.
 
 > Note: To use this demo, ensure you are signed in to your Babbage MetaNet Client.
 
+## How It Works
+
+Upon serving the HTML page, you will see a chat application with an input text field. You can open two browser windows of the same page to simulate to users talking to each other.
+
+Upon opening, the user should already be authenticated. This is facilitated by an initial Authrite authentication handshake with the server, assuming the user's MetaNet Client is active.
+
+Subsequently, the user can type a message in one window and press enter. The typing indicator and message will be visible in the other window. The same action can be performed in reverse. This simulates two users engaging in a conversation.
+
+Each action transmits authentication headers, ensuring that each message is mutually authenticated, not just the initial connection.
+
 ## License
 
 The license for the code in this repository is the Open BSV License.
