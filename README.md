@@ -7,7 +7,7 @@ Simple HTML/CSS/JS demo of Authrite protected sockets
 
 ## Installation
 
-1. Install Node.js dependencies by running:
+Install Node.js dependencies by running:
 
 ```bash
 npm install
