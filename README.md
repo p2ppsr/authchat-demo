@@ -23,7 +23,7 @@ This will initialize an Express server.
 
 2. Open the public/index.html page in your preferred browser. This page contains an Authrite client that will attempt to communicate over a websocket with the server at http://localhost:3000.
 
-To view the demo site, you'll need to serve the index.html page using a package. We recommend using `live-server`. Navigate to the public folder and use the following command:
+To view the demo site, you'll need to serve the index.html page using a package. We recommend using [live-server](https://www.npmjs.com/package/live-server). Navigate to the public folder and use the following command:
 
 ```bash
 live-server
